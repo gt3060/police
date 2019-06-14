@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":640,"height":1136},"compId":2,"child":[{"type":"Sprite","props":{"y":-31,"x":640,"texture":"game/timg.jpg","rotation":90},"compId":3},{"type":"Sprite","props":{"y":212,"x":473,"width":278,"texture":"game/npc.png","rotation":90,"height":456},"compId":4}],"loadList":["game/timg.jpg","game/npc.png"],"loadList3D":[]}
