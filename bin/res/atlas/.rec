@@ -1,4 +1,18 @@
 D .
+D comp
+P 84D6FC2B cancel.png
+R B32BEED3 car.png
+P 9CDA3405 close.png
+P C89DB3CC confirm.png
+R 6EF34704 dialog.png
+P B5894A9F exit.png
+R AC89ED71 huiluying.png
+R B23380A9 jiejing.png
+P 76E43470 jinruxianchang.png
+P CB378267 no.png
+P C9712601 querenjiejing.png
+R 71724ED7 xinjingxunlianying.png
+P CA20704F yes.png
 D game
 R 0E61E907 bg-game.jpg
 R F5B0631B bg2.png

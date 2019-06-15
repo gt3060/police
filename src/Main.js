@@ -1,5 +1,5 @@
 ﻿import GameConfig from "./GameConfig";
-import GameStart from './GameStart';
+// import GameStart from './GameStart';
 import ui from "./ui/layaMaxUI";
 
 class Main {
