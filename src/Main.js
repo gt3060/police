@@ -1,4 +1,5 @@
 ﻿import GameConfig from "./GameConfig";
+import GameStart from './GameStart';
 import ui from "./ui/layaMaxUI";
 
 class Main {
@@ -44,9 +45,8 @@ class Main {
 	}
 
 	onConfigLoaded() {
-		//加载IDE指定的场景
+		//加载IDE指定初始场景的场景
 		GameConfig.startScene && Laya.Scene.open(GameConfig.startScene);
-		console.log(Laya.stage);
 	}
 }
 //激活启动类

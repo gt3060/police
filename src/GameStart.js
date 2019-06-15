@@ -11,3 +11,5 @@ const GameStart = ((_super) => {
     }
     return GameStart;
 })(ui.GameStartUI);
+
+export default GameStart;
