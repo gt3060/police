@@ -1,1 +1,1 @@
-{"type":"View","props":{"width":640,"name":"game_page","height":1136},"compId":2,"child":[{"type":"Sprite","props":{"y":0,"x":640,"width":1136,"texture":"game/bg-game.jpg","rotation":90,"height":640},"compId":3}],"loadList":["game/bg-game.jpg"],"loadList3D":[]}
+{"type":"View","props":{"width":750,"name":"game_page","height":1334},"compId":2,"child":[{"type":"Sprite","props":{"y":0,"x":750,"width":1334,"texture":"game/bg-game.jpg","rotation":90,"height":750},"compId":3}],"loadList":["game/bg-game.jpg"],"loadList3D":[]}

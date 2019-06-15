@@ -46,6 +46,7 @@ class Main {
 	onConfigLoaded() {
 		//加载IDE指定的场景
 		GameConfig.startScene && Laya.Scene.open(GameConfig.startScene);
+		console.log(Laya.stage);
 	}
 }
 //激活启动类
