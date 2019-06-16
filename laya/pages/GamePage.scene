@@ -2,11 +2,11 @@
     "x":0,
     "type":"View",
     "selectedBox":2,
-    "selecteID":10,
+    "selecteID":18,
     "searchKey":"View",
     "props":{"width":750,"sceneColor":"#ffffff","height":1334},
     "nodeParent":-1,
-    "maxID":18,
+    "maxID":19,
     "label":"View",
     "isOpen":true,
     "isDirectory":true,
@@ -18,7 +18,7 @@
             "x":15,
             "type":"Sprite",
             "searchKey":"Sprite",
-            "props":{"y":0,"x":750,"width":1334,"texture":"game/bg-game.jpg","rotation":90,"height":750},
+            "props":{"y":0,"x":750,"width":1334,"texture":"game/pagebg.png","rotation":90,"height":750},
             "nodeParent":2,
             "label":"Sprite",
             "isDirectory":false,
@@ -32,7 +32,7 @@
             "x":15,
             "type":"Sprite",
             "searchKey":"Sprite,btnBack",
-            "props":{"y":0,"x":530,"var":"btnBack","texture":"game/huiluying.png","rotation":90},
+            "props":{"y":197,"x":392.5,"var":"btnBack","texture":"game/huiluying.png","rotation":90},
             "nodeParent":2,
             "label":"btnBack",
             "isOpen":null,
@@ -62,7 +62,7 @@
             "x":15,
             "type":"Sprite",
             "searchKey":"Sprite,btnAlarm",
-            "props":{"y":0,"x":653,"var":"btnAlarm","texture":"game/jiejing.png","rotation":90,"mouseEnabled":true},
+            "props":{"y":93,"x":537,"var":"btnAlarm","texture":"game/jiejing.png","rotation":90,"mouseEnabled":true},
             "nodeParent":2,
             "label":"btnAlarm",
             "isOpen":null,
@@ -73,8 +73,10 @@
             "child":[
                 {
                     "type":"Script",
+                    "switchAble":true,
                     "source":"src/GamePage/BtnAlarm.js",
                     "searchKey":"Script,BtnAlarm",
+                    "removeAble":true,
                     "props":{},
                     "nodeParent":9,
                     "label":"BtnAlarm",
@@ -90,7 +92,7 @@
             "x":15,
             "type":"Sprite",
             "searchKey":"Sprite,btnTrain",
-            "props":{"y":0,"x":401,"var":"btnTrain","texture":"game/xinjingxunlianying.png","rotation":90},
+            "props":{"y":299,"x":252,"var":"btnTrain","texture":"game/xinjingxunlianying.png","rotation":90},
             "nodeParent":2,
             "label":"btnTrain",
             "isOpen":null,
@@ -115,6 +117,20 @@
                     "child":[
                         ]
                 }]
+        },
+        {
+            "x":15,
+            "type":"Sprite",
+            "searchKey":"Sprite",
+            "props":{"y":765,"x":715.5,"texture":"game/npc.png","rotation":90},
+            "nodeParent":2,
+            "label":"Sprite",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":18,
+            "child":[
+                ]
         }],
     "animations":[
         {
