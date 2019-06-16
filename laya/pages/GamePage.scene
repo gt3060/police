@@ -6,7 +6,7 @@
     "searchKey":"View",
     "props":{"width":750,"sceneColor":"#ffffff","height":1334},
     "nodeParent":-1,
-    "maxID":18,
+    "maxID":19,
     "label":"View",
     "isOpen":true,
     "isDirectory":true,
@@ -31,90 +31,64 @@
         {
             "x":15,
             "type":"Sprite",
-            "searchKey":"Sprite,btnBack",
-            "props":{"y":0,"x":530,"var":"btnBack","texture":"game/huiluying.png","rotation":90},
+            "searchKey":"Sprite,back,btnBack",
+            "props":{"y":0,"x":530,"var":"btnBack","texture":"game/huiluying.png","rotation":90,"name":"back"},
             "nodeParent":2,
-            "label":"btnBack",
+            "label":"back",
             "isOpen":null,
-            "isDirectory":true,
+            "isDirectory":false,
             "isAniNode":true,
-            "hasChild":true,
+            "hasChild":false,
             "compId":8,
             "child":[
-                {
-                    "type":"Script",
-                    "switchAble":true,
-                    "source":"src/GamePage/BtnBack.js",
-                    "searchKey":"Script,BtnBack",
-                    "removeAble":true,
-                    "props":{},
-                    "nodeParent":8,
-                    "label":"BtnBack",
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":16,
-                    "child":[
-                        ]
-                }]
+                ]
         },
         {
             "x":15,
             "type":"Sprite",
-            "searchKey":"Sprite,btnAlarm",
-            "props":{"y":0,"x":653,"var":"btnAlarm","texture":"game/jiejing.png","rotation":90,"mouseEnabled":true},
+            "searchKey":"Sprite,alarm,btnAlarm",
+            "props":{"y":0,"x":653,"var":"btnAlarm","texture":"game/jiejing.png","rotation":90,"name":"alarm","mouseEnabled":true},
             "nodeParent":2,
-            "label":"btnAlarm",
+            "label":"alarm",
             "isOpen":null,
-            "isDirectory":true,
+            "isDirectory":false,
             "isAniNode":true,
-            "hasChild":true,
+            "hasChild":false,
             "compId":9,
             "child":[
-                {
-                    "type":"Script",
-                    "source":"src/GamePage/BtnAlarm.js",
-                    "searchKey":"Script,BtnAlarm",
-                    "props":{},
-                    "nodeParent":9,
-                    "label":"BtnAlarm",
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":15,
-                    "child":[
-                        ]
-                }]
+                ]
         },
         {
             "x":15,
             "type":"Sprite",
-            "searchKey":"Sprite,btnTrain",
-            "props":{"y":0,"x":401,"var":"btnTrain","texture":"game/xinjingxunlianying.png","rotation":90},
+            "searchKey":"Sprite,train,btnTrain",
+            "props":{"y":0,"x":401,"var":"btnTrain","texture":"game/xinjingxunlianying.png","rotation":90,"name":"train"},
             "nodeParent":2,
-            "label":"btnTrain",
+            "label":"train",
             "isOpen":null,
-            "isDirectory":true,
+            "isDirectory":false,
             "isAniNode":true,
-            "hasChild":true,
+            "hasChild":false,
             "compId":10,
             "child":[
-                {
-                    "type":"Script",
-                    "switchAble":true,
-                    "source":"src/GamePage/BtnTrain.js",
-                    "searchKey":"Script,BtnTrain",
-                    "removeAble":true,
-                    "props":{},
-                    "nodeParent":10,
-                    "label":"BtnTrain",
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":17,
-                    "child":[
-                        ]
-                }]
+                ]
+        },
+        {
+            "x":15,
+            "type":"Script",
+            "switchAble":true,
+            "source":"src/GamePage/GamePage.js",
+            "searchKey":"Script,GamePage",
+            "removeAble":true,
+            "props":{},
+            "nodeParent":2,
+            "label":"GamePage",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":18,
+            "child":[
+                ]
         }],
     "animations":[
         {
